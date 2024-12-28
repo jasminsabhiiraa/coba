@@ -64,37 +64,38 @@
             <h2>Order Form</h2>
           </div>
         </div>
-        <form id="OrderForm" name="Order-Form">
-          <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="name" />
-          </div>
-          <div class="mb-3">
-            <label for="email" class="form-label">Email</label>
-            <input type="text" class="form-control" id="email" name="email" />
-          </div>
-          <div class="mb-3">
-            <label for="address" class="form-label">Address</label>
-            <textarea class="form-control" id="alamat" name="address"></textarea>
-          </div>
-          <div class="mb-3">
-            <label for="Products" class="form-label">Products</label>
-            <select name="products" class="form-select">
-              <option value=""></option>
-              <option value="Houseplants">Houseplants</option>
-              <option value="Flower-Pillow">Flower Pillow</option>
-              <option value="Adoreble-Mirror">Adorable Mirror</option>
-              <option value="Flower-Carpet">Flower Carpet</option>
-              <option value="Acrylic-Rack">Acrylic Rack</option>
-              <option value="Aromatherapy-Candles">Aromatherapy Candles</option>
-            </select>
-          </div>    
-          <div class="mb-3">
-            <label for="note" class="form-label">Notes</label>
-            <input type="text" class="form-control" id="note" name="notes" />
-          </div>            
-          <button type="submit" class="btn btn-primary">Buy</button>
-        </form>
+        <form id="OrderForm" name="Order-Form" method="post">
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" class="form-control" id="name" name="name" />
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="text" class="form-control" id="email" name="email" />
+  </div>
+  <div class="mb-3">
+    <label for="address" class="form-label">Address</label>
+    <textarea class="form-control" id="alamat" name="address"></textarea>
+  </div>
+  <div class="mb-3">
+    <label for="Products" class="form-label">Products</label>
+    <select name="products" class="form-select">
+      <option value=""></option>
+      <option value="Houseplants">Houseplants</option>
+      <option value="Flower-Pillow">Flower Pillow</option>
+      <option value="Adorable-Mirror">Adorable Mirror</option>
+      <option value="Flower-Carpet">Flower Carpet</option>
+      <option value="Acrylic-Rack">Acrylic Rack</option>
+      <option value="Aromatherapy-Candles">Aromatherapy Candles</option>
+    </select>
+  </div>    
+  <div class="mb-3">
+    <label for="note" class="form-label">Notes</label>
+    <input type="text" class="form-control" id="note" name="notes" />
+  </div>            
+  <button type="submit" class="btn btn-primary">Buy</button>
+</form>
+
       </div>
     </section>
     <!-- End Order -->
